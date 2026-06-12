@@ -5,17 +5,15 @@
   "imports": {
     "#/*": "./src/*"
   },
-  
   "scripts": {
     "dev": "vite --port 3000",
-		"build": "vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "format": "biome format --write .",
     "lint": "biome lint .",
     "check": "biome check .",
     "fix": "biome check --write ."
-  }
-,
+  },
   "dependencies": {
     "@sentry/tanstackstart-react": "^10.42.0",
     "@tailwindcss/vite": "^4.1.18",
@@ -30,6 +28,7 @@
     "nitro": "npm:nitro-nightly@latest",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
+    "tailwind-merge": "^3.6.0",
     "tailwindcss": "^4.1.18"
   },
   "devDependencies": {
